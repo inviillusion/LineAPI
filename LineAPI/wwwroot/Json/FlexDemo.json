@@ -1,0 +1,58 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Minson Enterprise",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#1CA43F"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Generate Salary Slip",
+                "color": "#aaaaaa",
+                "size": "md",
+                "flex": 0,
+                "weight": "bold"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "OPEN",
+          "uri": "@URI"
+        },
+        "margin": "none"
+      }
+    ],
+    "flex": 0,
+    "backgroundColor": "#DDE7E5",
+    "borderWidth": "none"
+  }
+}

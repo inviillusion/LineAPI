@@ -1,0 +1,85 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "My Information",
+        "size": "xxl",
+        "weight": "bold",
+        "color": "#0091EF"
+      },
+      {
+        "type": "separator",
+        "margin": "sm"
+      },
+      {
+        "type": "text",
+        "text": "Minson Enterprise",
+        "margin": "sm",
+        "size": "lg",
+        "weight": "bold"
+      },
+      {
+        "type": "text",
+        "text": "@dept",
+        "margin": "md",
+        "size": "md",
+        "weight": "bold"
+      },
+      {
+        "type": "text",
+        "text": "@name",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "@startwork"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "พักร้อนทั้งหมด",
+            "margin": "none"
+          },
+          {
+            "type": "text",
+            "text": "@vamax"
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "พักร้อนคงเหลือ",
+            "margin": "none"
+          },
+          {
+            "type": "text",
+            "text": "@va",
+            "margin": "none"
+          }
+        ]
+      }
+    ],
+    "margin": "xxl"
+  },
+  "styles": {
+    "header": {
+      "separator": true
+    }
+  }
+}
